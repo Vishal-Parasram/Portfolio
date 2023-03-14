@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Poppins:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Reset */
+
+:root {
+    --heading-color: #000000;
+    --sub-heading-color: #8a8a8a;
+    --nav-color: #e76385;
+    --btn-color: #1d1d21;
+    --padding-inline-section: 20px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+}
+
+/* Utility Class */
+
+.cointner-1 {
+    max-width: 1450px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.cointner-2 {
+    max-width: 1250px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+/* nav-bar */
+
+.main-nav {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+ul li {
+    list-style: none;
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+}
+
+.nav-link {
+    flex-basis: 730px;
+}
+
+.nav-link ul {
+    justify-content: end;
+    gap: 40px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-bar ul li a {
+    display: block;
+    transition: 0.2s;
+}
+
+.nav-bar ul li a.active {
+    color: black;
+    background-color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo:hover {
+    color: var(--sub-heading-color);
+}
+
+.hover-link {
+    color: var(--btn-color);
+}
+
+.hover-link:hover {
+    color: var(--nav-color);
+}
+
+/* main-section */
+
+.main-heading {
+    margin-top: 180px;
+    font-family: 'Inter', sans-serif;
+    color: var(--btn-color);
+}
+
+.sub-heading {
+    margin-top: 30px;
+    color: var(--sub-heading-color);
+    font-family: 'Inter', sans-serif;
+    font-weight: 2;
+}
+
+.about-me-btn {
+    margin-top: 60px;
+    padding: 15px 0px 15px 28px;
+    width: 210px;
+    border: 1.8px solid #000000;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.about-me-btn:hover {
+    margin-top: 60px;
+    padding: 15px 0px 15px 28px;
+    width: 210px;
+    border: 1.8px dashed #000000;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.for-space {
+    padding-left: 30px;
+}
+
+/* service */
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.service-about {
+    margin-top: 300px;
+    color: var(--nav-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.service-heading {
+    margin-top: 10px;
+    line-break: auto;
+    font-size: 50px;
+    font-weight: 540;
+
+}
+
+.pushing {
+    margin-top: 5px;
+}
+
+.shape {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-logo {
+    margin-top: 100px;
+}
+
+.big {
+    margin-top: 15px;
+}
+
+.for-size {
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.for-align {
+    text-align: start;
+    font-size: 16px;
+    margin-top: 13px;
+    padding-right: 25px;
+}
+
+/* work */
+
+.work-img {
+    margin-top: 55px;
+    width: 710px;
+    height: 380px;
+}
+
+.flipkart-clone {
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+/* about-me */
+
+.left-right {
+    justify-content: space-between;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.for-size {
+    font-size: 18px;
+    text-align: left;
+    color: var(--sub-heading-color);
+    font-family: sans-serif;
+}
+
+/* contact */
+
+.hire {
+    margin-top: 200px;
+    font-family: 'Inter', sans-serif;
+}
+
+.contact {
+    margin-top: 40px;
+    color: var(--nav-color);
+}
+
+.contact:hover {
+    margin-top: 40px;
+    color: var(--nav-color);
+    margin-left: 2px;
+}
+
+.arrow-hover:hover {
+    padding-left: 20px;
+    margin-left: 20px;
+    transition: all 0.3s;
+}
+
+/* sub-footer */
+
+.sub-footer {
+    margin-top: 200px;
+}
+
+.social-media {
+    width: 30px;
+    height: 7px;
+    justify-content: space-between;
+    gap: 40px;
+}
+.social-media:hover {
+    width: 30px;
+    height: 7px;
+    justify-content: space-between;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.margin-top {
+    margin-top: 60px;
+}
+
+.email {
+    margin-left: 60vw;
+    width: 30px;
+    height: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.big {
+    width: -80px;
+    height: -190px;
+}
+
+.footer {
+    margin-top: 180px;
+    justify-content: start;
+    gap: 50px;
+    font-family: 'Inter', sans-serif;
+}
+
+.space {
+    height: 20px;
+}
