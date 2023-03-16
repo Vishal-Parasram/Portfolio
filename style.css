@@ -95,6 +95,7 @@ ul li {
 .logo {
     font-size: 24px;
     font-family: 'Inter', sans-serif;
+    display: inline;
 }
 
 .logo:hover {
