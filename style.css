@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Reset */
 
 :root {
@@ -38,6 +42,16 @@ p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.25rem;
     line-height: 1.8rem;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 /* Utility Class */
@@ -116,6 +130,7 @@ ul li {
     margin-top: 180px;
     font-family: 'Inter', sans-serif;
     color: var(--btn-color);
+    animation:fade 1.5s ease-in-out 1s;
 }
 
 .sub-heading {
