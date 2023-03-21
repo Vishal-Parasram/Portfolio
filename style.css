@@ -44,13 +44,13 @@ p {
     line-height: 1.8rem;
 }
 
-@keyframes fade {
+@keyframes slideup{
     0% {
-        opacity: 0;
+        transform: translatey(-100px);
     }
 
     100% {
-        opacity: 1;
+        transform: translatey(50px);
     }
 }
 
@@ -130,7 +130,7 @@ ul li {
     margin-top: 180px;
     font-family: 'Inter', sans-serif;
     color: var(--btn-color);
-    animation:fade 1.5s ease-in-out 1s;
+    animation:slideup 1s ease reverse;
 }
 
 .sub-heading {
@@ -158,9 +158,9 @@ ul li {
     font-family: 'Inter', sans-serif;
 }
 
-.for-space {
+/* .for-space {
     padding-left: 30px;
-}
+} */
 
 /* service */
 
