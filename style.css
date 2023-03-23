@@ -43,7 +43,7 @@ p {
 /* Utility Class */
 
 .cointner-1 {
-    max-width: 1450px;
+    max-width: 1800px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
 }
@@ -87,18 +87,9 @@ ul li {
     gap: 40px;
 }
 
-.hamburger {
-    display: none;
-}
-
 .nav-bar ul li a {
     display: block;
     transition: 0.2s;
-}
-
-.nav-bar ul li a.active {
-    color: black;
-    background-color: white;
 }
 
 .logo {
@@ -231,7 +222,7 @@ ul li {
     font-size: 18px;
     text-align: left;
     color: var(--sub-heading-color);
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 /* contact */
@@ -270,6 +261,7 @@ ul li {
     justify-content: space-between;
     gap: 40px;
 }
+
 .social-media:hover {
     width: 30px;
     height: 7px;
@@ -279,7 +271,7 @@ ul li {
 }
 
 .margin-top {
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 .email {
