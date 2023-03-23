@@ -1,3 +1,5 @@
+        /* for ipad */
+
 @media (max-width: 1035px) {
 
     .cointner-1 {
@@ -121,7 +123,7 @@
     }
 }
 
-
+        /* for device smaller than ipad */
 
 @media (max-width: 850px) {
 
