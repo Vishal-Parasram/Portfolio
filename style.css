@@ -313,3 +313,12 @@ ul li {
 .space {
     height: 20px;
 }
+
+
+#hamburger{
+    display: none;
+}
+
+#navtext{
+    display: block;
+}
