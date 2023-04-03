@@ -252,7 +252,7 @@
 
 /* dilip code */
 
-@media (max-width:640px) {
+@media (max-width:740px) {
     #navtext{
         display: none;
         flex-direction: column;
