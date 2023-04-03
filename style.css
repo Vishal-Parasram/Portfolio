@@ -56,12 +56,11 @@ p {
 
 .menu-button-container {
     display: none;
-    height: 100%;
     width: 30px;
     cursor: pointer;
-    flex-direction: column;
+    /* flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 #menu-toggle {
@@ -81,7 +80,7 @@ p {
 }
 
 .menu-button {
-    top: 29px;
+    top: 32px;
     right: 15px;
 
 }
