@@ -44,7 +44,7 @@ p {
     line-height: 1.8rem;
 }
 
-@keyframes slideup{
+@keyframes slideup {
     0% {
         transform: translatey(-100px);
     }
@@ -53,6 +53,82 @@ p {
         transform: translatey(50px);
     }
 }
+
+
+
+
+/* this is the code i(skmuneeruddin) added you can study this and place it in wherever you want*/
+.menu-button-container {
+    display: none;
+    width: 30px;
+    cursor: pointer;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: block;
+    background-color: #030303;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+}
+
+.menu-button {
+    top: 32px;
+    right: 15px;
+
+}
+
+.menu-button::before {
+    content: '';
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: '';
+    margin-top: 8px;
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+}
+
+@media (max-width: 740px) {
+    .menu-button-container {
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Utility Class */
 
@@ -130,7 +206,7 @@ ul li {
     margin-top: 180px;
     font-family: 'Inter', sans-serif;
     color: var(--btn-color);
-    animation:slideup 1s ease reverse;
+    animation: slideup 1s ease reverse;
 }
 
 .sub-heading {
@@ -315,10 +391,10 @@ ul li {
 }
 
 
-#hamburger{
+#hamburger {
     display: none;
 }
 
-#navtext{
+#navtext {
     display: block;
 }
