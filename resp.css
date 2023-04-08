@@ -8,6 +8,13 @@
         padding-inline: var(--padding-inline-section);
     }
 
+    /* .social-media {
+        width: 30px;
+        height: 7px;
+        justify-content: space-between;
+        gap: 700%;
+    } */
+    
     .cointner-2 {
         max-width: 840px;
         margin-inline: auto;
@@ -97,16 +104,16 @@
         font-weight: 600;
     }
 
-    .contact:hover {
+    /* .contact:hover {
         margin-top: 27px;
         color: var(--nav-color);
         margin-left: 2px;
         font-size: 1.9rem;
         font-weight: 600;
-    }
+    } */
 
     .sub-footer {
-        margin-top: 135px;
+        margin-top: 20px;
     }
 
     .email {
@@ -139,6 +146,16 @@
         padding-inline: var(--padding-inline-section);
     }
 
+    /* .social-media {
+        width: 30px;
+        height: 7px;
+        justify-content: space-between;
+        gap: 90%;
+    }
+     */
+    .email_icon{
+        gap: 10px;
+    }
     .nav-bar {
         margin-left: 10px;
     }
@@ -222,16 +239,16 @@
         font-weight: 600;
     }
 
-    .contact:hover {
+    /* .contact:hover {
         margin-top: 27px;
         color: var(--nav-color);
         margin-left: 2px;
         font-size: 1.9rem;
         font-weight: 600;
-    }
+    } */
 
     .sub-footer {
-        margin-top: 135px;
+        margin-top: 20px;
     }
 
     .email {
@@ -243,7 +260,7 @@
     }
 
     .footer {
-        margin-top: 120px;
+        margin-top: 10%;
         gap: 160px;
     }
 }
