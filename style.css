@@ -168,7 +168,11 @@ ul li {
 }
 
 .nav-link {
+
+    flex-basis: 100%;
+
     flex-basis: 10px;
+
 }
 
 .nav-link ul {
@@ -205,6 +209,10 @@ ul li {
     margin-top: 180px;
     font-family: 'Inter', sans-serif;
     color: var(--btn-color);
+
+    /* animon: slideup 1s ease reverse; */
+
+
 }
 
 .sub-heading {
@@ -328,6 +336,14 @@ ul li {
 }
 
 
+/* .contact:hover {
+    margin-top: 40px;
+    color: var(--nav-color);
+    margin-left: 2px;
+} */
+
+
+
 
 .arrow-hover:hover {
     padding-left: 20px;
@@ -338,24 +354,94 @@ ul li {
 /* sub-footer */
 
 .sub-footer {
+
+    margin-top: 55px;
+
     margin-top: 45px;
+
 }
 
-.social-media {
-    width: 30px;
-    height: 7px;
-    justify-content: space-between;
-    gap: 40px;
+
+.tooltipText {
+    background-color: #fff;
+    position: absolute;
+    bottom: 130%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    transition: all .5s;
+    
 }
 
-.social-media:hover {
-    width: 30px;
-    height: 7px;
-    justify-content: space-between;
-    gap: 40px;
+.tooltip {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
     cursor: pointer;
 }
 
+/* Style text tooltip */
+.tooltipText {
+    background-color: #fff;
+    position: absolute;
+    bottom: 130%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.fb {color: darkblue; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.tw {color: #1da1f2; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.envel {color:#25d366; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.insta {color: pink; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+/*  Membuat dan style tip*/
+.tooltipText::after {
+    content: '';
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    margin-left: 5%;
+}
+
+/* Style Icon */
+.social-media i {
+    background-color: rgba(168,164,164,0.3);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/* Hover text tooltip */
+.tooltip:hover .tooltipText{
+    opacity: 0.6;
+    transform: translateY(-10px);
+}
+
+/* Hover Background icon */
+.facebook:hover i {
+    background-color: #3B5998;
+}
+.twitter:hover i {
+    background-color: #1da1f2;
+}
+.instagram:hover i {
+    background-color: pink;
+}
+
+.envelope:hover i {
+    background-color: #25d366;
+}
 .margin-top {
     margin-top: 70px;
 }
@@ -374,9 +460,15 @@ ul li {
 }
 
 .footer {
+
+    margin-top: 55px;
+    justify-content: space-between;
+    gap: 50px;
+
     margin-top: 45px;
     justify-content: start;
     gap: 10%;
+
     font-family: 'Inter', sans-serif;
 }
 
