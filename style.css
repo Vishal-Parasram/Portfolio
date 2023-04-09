@@ -158,7 +158,6 @@ p {
 /* nav-bar */
 
 .main-nav {
-    justify-content: space-between;
     margin-top: 20px;
 }
 
@@ -169,7 +168,11 @@ ul li {
 }
 
 .nav-link {
+
     flex-basis: 100%;
+
+    flex-basis: 10px;
+
 }
 
 .nav-link ul {
@@ -206,7 +209,10 @@ ul li {
     margin-top: 180px;
     font-family: 'Inter', sans-serif;
     color: var(--btn-color);
-    /* animation: slideup 1s ease reverse; */
+
+    /* animon: slideup 1s ease reverse; */
+
+
 }
 
 .sub-heading {
@@ -329,11 +335,15 @@ ul li {
     color: var(--nav-color);
 }
 
+
 /* .contact:hover {
     margin-top: 40px;
     color: var(--nav-color);
     margin-left: 2px;
 } */
+
+
+
 
 .arrow-hover:hover {
     padding-left: 20px;
@@ -344,7 +354,11 @@ ul li {
 /* sub-footer */
 
 .sub-footer {
+
     margin-top: 55px;
+
+    margin-top: 45px;
+
 }
 
 
@@ -446,9 +460,15 @@ ul li {
 }
 
 .footer {
+
     margin-top: 55px;
     justify-content: space-between;
     gap: 50px;
+
+    margin-top: 45px;
+    justify-content: start;
+    gap: 10%;
+
     font-family: 'Inter', sans-serif;
 }
 

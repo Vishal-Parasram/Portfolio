@@ -104,6 +104,7 @@
         font-weight: 600;
     }
 
+
     /* .contact:hover {
         margin-top: 27px;
         color: var(--nav-color);
@@ -114,6 +115,12 @@
 
     .sub-footer {
         margin-top: 20px;
+}
+    
+
+    .sub-footer {
+        margin-top: 45px;
+
     }
 
     .email {
@@ -125,8 +132,8 @@
     }
 
     .footer {
-        margin-top: 120px;
-        gap: 160px;
+        margin-top: 50px;
+        gap: 10%;
     }
 }
 
@@ -239,6 +246,7 @@
         font-weight: 600;
     }
 
+
     /* .contact:hover {
         margin-top: 27px;
         color: var(--nav-color);
@@ -249,6 +257,12 @@
 
     .sub-footer {
         margin-top: 20px;
+}
+    
+
+    .sub-footer {
+        margin-top: 45px;
+
     }
 
     .email {
@@ -260,10 +274,15 @@
     }
 
     .footer {
+
         margin-top: 10%;
         gap: 160px;
+
+        margin-top: 50px;
+        gap: 10%;
+
     }
-}
+
 
 
 
